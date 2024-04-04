@@ -1,0 +1,45 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: #151515;
+}
+
+.navo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    text-align: center;  
+    margin-left: 25%;
+    margin-right: 25%;
+    height:max-content;
+    background-color: #909090;
+    border-radius: 1vh;
+    border-style: none;
+}
+
+.navo a {
+    margin-top: 3%;
+    font-size: larger;
+    transform: translatey(-50%);
+    color: #151515;
+}
+
+
+
+@media screen and (max-width:1100px) {
+    .navo {
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right:15% ;
+        width:70%
+    }
+
+    .navo a {
+        margin-top: 3%;
+        font-size: larger;
+    }   
+}
